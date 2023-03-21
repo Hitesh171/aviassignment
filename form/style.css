@@ -15,9 +15,41 @@
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
-   height: 500px;
+   height: 750px;
    background-color: skyblue;
+   padding-top: 30px;
+   padding-bottom: 10px;
 
+
+}
+#formData{
+   width:clamp(350px,80%,600px);
+}
+body{
+   font-size:16px;
+   padding:2em;
+   margin:0 auto;
+}
+@media (min-width:600px){
+   body {
+      font-size:14px;
+      padding: 1rem;
+      margin:2px;
+   }
+}
+@media screen and (min-width:601px) and (max-width:900px){
+   body{
+      font-size:15px;
+      padding:2rem;
+      margin:3px;
+   }
+}
+@media screen and (min-width:901px){
+   body{
+      font-size:17px;
+      padding:3rem;
+      margin:4px;
+   }
 }
 label {
    margin-bottom: o.5rem;
