@@ -1,0 +1,14 @@
+var map1=new Map();
+map1.set("first name","sumit");
+map1.set("last name","ghosh");
+map1.set("web","geeks").set("friend 1","gourav").set("friend 2","sourav");
+console.log(map1);
+console.log("map1 has web"+map1.has("web"));
+console.log("map1 has friend 3"+map1.has("friend 3"));
+console.log("get value for key web"+map1.get("web"));
+console.log("get value for key friend 3"+map1.get("friend 3"));
+console.log("delete element with key web"+map1.delete("web"));
+console.log("map1 has web"+map1.has("web"));
+console.log("delete element with key web"+map1.delete("friend 3"));
+map1.clear();
+console.log(map1);
