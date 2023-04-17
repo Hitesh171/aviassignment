@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-top: 100px;
+  }
+  
+  .container-content {
+    width: 200px;
+    height:200px;
+    background-color:#b1e8ec;
+  }
+  .crossButton{
+    background-color:white;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 220px;
+    font-size: 20px;
+  }
